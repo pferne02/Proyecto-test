@@ -8,9 +8,9 @@ public class Fecha {
 		
 		
 		Fecha(){
-			this.setYear(1);
-			this.setMonth(1);
-			this.setDay(1);
+			this.setYear(2019);
+			this.setMonth(03);
+			this.setDay(26);
 			
 		}
 

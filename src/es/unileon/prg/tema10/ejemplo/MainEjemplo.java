@@ -3,16 +3,16 @@ package es.unileon.prg.tema10.ejemplo;
 public class MainEjemplo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("Hola");
+		System.out.println("¡Hola!");
 		
 		Fecha miFecha = new Fecha();
 		
-		int valor = miFecha.getDay();
-		miFecha.setYear(2019);
+		int dia = miFecha.getDay();
+		int mes = miFecha.getMonth();
 		int anyo = miFecha.getYear();
 		
-		System.out.println(valor + ", " + anyo);
+		
+		System.out.println("La fecha de hoy es " + dia + "/" + mes + "/" + anyo + ".");
 		
 	}
 
